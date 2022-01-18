@@ -95,7 +95,7 @@ p + p {
 }
 
 .btn-border {
-    border: 1px solid #26272d;
+    border: 1px solid #8a8a8a;
 }
 
 .btn-fill {
@@ -682,7 +682,7 @@ html, body {
     padding: 0;
     font-size: 16px;
     position: relative;
-    color: #26272d;
+    color: #ffffff;
     line-height: 26px;
 }
 
@@ -779,7 +779,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/hero.jpg) no-repeat center / cover; 
+    background: url(https://static.vecteezy.com/system/resources/previews/001/308/126/original/geometric-frame-neon-light-design-on-black-background-vector.jpg) no-repeat center / cover;
     height: 100%;
     width: 100%;
     display: table;
@@ -788,12 +788,13 @@ html, body {
 
 .overlay:before {
   content: '';
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.01);
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
   z-index: 0;
 }
 
@@ -814,23 +815,25 @@ html, body {
 .hero-text h1 {
     position: relative;
     margin: 0;
+    color: #ffffff;
 }
 
 .hero-text p {
     position: relative;
     margin: 45px 0 30px;
     font-size: 20px;
-    color: #26272d;
+    color: #ffffff;
 }
 
 .hero-text .btn {
     position: relative;
     background-color: transparent;
+    color: #ffffff;
 }
 
 .hero-text .btn:hover {
     background-color: #26272d;
-    color: #fff;
+    color: #ffff;
 }
 
 .hero .breadcrumb {
